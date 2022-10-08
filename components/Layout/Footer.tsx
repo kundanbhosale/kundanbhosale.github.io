@@ -13,29 +13,29 @@ const Footer = () => {
     <Fragment>
       <FootWrapper>
         <div>
-          <Link href='/' passHref>
+          <Link href="/" passHref>
             <FootLink>© Kundan Bhosale</FootLink>
           </Link>
         </div>
         <div>
           <FootLink
-            href='https://github.com/Kundan435'
-            target='_blank'
-            rel='noreferrer'
+            href="https://github.com/kundanbhosale"
+            target="_blank"
+            rel="noreferrer"
           >
             <IoLogoGithub size={`${size}rem`} />
           </FootLink>
           <FootLink
-            href='https://www.linkedin.com/in/kundan-bhosale/'
-            target='_blank'
-            rel='noreferrer'
+            href="https://www.linkedin.com/in/kundan-bhosale/"
+            target="_blank"
+            rel="noreferrer"
           >
             <IoLogoLinkedin size={`${size}rem`} />
           </FootLink>
           <FootLink
-            href='https://www.instagram.com/kundanbhosale_/'
-            target='_blank'
-            rel='noreferrer'
+            href="https://www.instagram.com/kundanbhosale_/"
+            target="_blank"
+            rel="noreferrer"
           >
             <IoLogoInstagram size={`${size}rem`} />
           </FootLink>

@@ -25,9 +25,7 @@ export const getStaticProps = async () => {
     const newData = data
       .filter(
         ({ name }: { name: string }) =>
-          name !== 'Kundan435' &&
-          name !== 'kundanbhosale.github.io' &&
-          name !== 'portfolio'
+          name !== 'kundanbhosale.github.io' && name !== 'portfolio'
       )
       .sort((a: any, b: any) => {
         return (

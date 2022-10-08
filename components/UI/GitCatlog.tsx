@@ -9,14 +9,14 @@ const GitCatlog: React.FC<IProps> = ({ data }) => {
 
   return (
     <Fragment>
-      <CatlogWrapper colWidth='300px' gap='3rem'>
+      <CatlogWrapper colWidth="300px" gap="3rem">
         {data.map((item, i) => (
           <div style={{ height: '100%' }} key={i}>
             <Link href={item.html_url} passHref>
-              <a target='_blank'>
+              <a target="_blank">
                 <CatalogGit>
                   <p>{item.name}</p>
-                  <p className='line-clamp' style={{ fontSize: '0.85rem' }}>
+                  <p className="line-clamp" style={{ fontSize: '0.85rem' }}>
                     {item.description}
                   </p>
                   {item.topics.map((topic: string, i: number) => (
@@ -36,12 +36,12 @@ const GitCatlog: React.FC<IProps> = ({ data }) => {
         style={{
           display: 'flex',
           justifyContent: `${!mobile ? 'start' : 'center'}`,
-          marginTop: '1rem'
+          marginTop: '1rem',
         }}
       >
         <Button
-          href='https://github.com/Kundan435?tab=repositories'
-          target='_blank'
+          href="https://github.com/kundanbhosale?tab=repositories"
+          target="_blank"
         >
           View All On Github
         </Button>
