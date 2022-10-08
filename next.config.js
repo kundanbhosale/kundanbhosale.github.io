@@ -13,7 +13,7 @@ module.exports = (phase, { defaultConfig }) => {
     reactStrictMode: true,
     images: {
       loader: 'akamai',
-      path: '/',
+      path: '',
     },
     basePath: '/',
     assetPrefix: '/',
