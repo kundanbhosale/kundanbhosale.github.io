@@ -15,7 +15,5 @@ module.exports = (phase, { defaultConfig }) => {
       loader: 'akamai',
       path: '',
     },
-    basePath: '/',
-    assetPrefix: '/',
   })
 }
