@@ -4,18 +4,18 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 module.exports = (phase, { defaultConfig }) => {
-    if (phase === PHASE_DEVELOPMENT_SERVER) {
+  if (phase === PHASE_DEVELOPMENT_SERVER) {
     return {
-      reactStrictMode: true
+      reactStrictMode: true,
     }
   }
   return withBundleAnalyzer({
-  reactStrictMode: true,
-  images: {
-     loader: 'akamai',
-     path: '/',
-   },
-   basePath: '/portfolio',
-   assetPrefix: '/portfolio',
-})
+    reactStrictMode: true,
+    images: {
+      loader: 'akamai',
+      path: '/',
+    },
+    basePath: '/',
+    assetPrefix: '/',
+  })
 }
