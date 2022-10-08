@@ -14,7 +14,7 @@ import { useViewport } from '../providers/viewport'
 export const getStaticProps = async () => {
   try {
     const { data } = await axios.get(
-      'https://api.github.com/users/kundanbhosale/repos?per_page=5',
+      'https://api.github.com/users/kundanbhosale/repos?per_page=10',
       {
         headers: {
           Accept: 'application/vnd.github.mercy-preview+json',
