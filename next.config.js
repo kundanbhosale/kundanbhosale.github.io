@@ -3,10 +3,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 })
 module.exports = withBundleAnalyzer({
   reactStrictMode: true,
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio',
+  // images: {
+  //   loader: 'akamai',
+  //   path: '/',
+  // },
+  // basePath: '/portfolio',
+  // assetPrefix: '/portfolio',
 })

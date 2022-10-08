@@ -34,7 +34,7 @@ export const getStaticProps = async () => {
           new Date(b.created_at).valueOf() - new Date(a.created_at).valueOf()
         )
       })
-      .slice(0, 4)
+      .slice(0, 6)
       .map(({ name, topics, description, html_url }: Data) => {
         return { name, topics, description, html_url }
       })
