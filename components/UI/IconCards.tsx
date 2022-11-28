@@ -43,7 +43,7 @@ const IconCards = () => {
             width={imgHW}
             height={imgHW}
           />
-          <p className="text-sm">PHP</p>
+          <p className="text-sm">Golang</p>
         </div>
         <div>
           <Image
