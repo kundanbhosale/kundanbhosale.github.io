@@ -10,14 +10,14 @@ import Link from 'next/link'
 
 const websites = [
   {
-    name: 'Devine Resort',
-    img: 'devinereso.png',
-    link: 'https://www.divineresort.com/'
+    name: 'Taskwatch',
+    img: 'taskwatch.png',
+    link: 'https://www.taskwatch.io/'
   },
   {
-    name: 'The Indian Crafthouse',
-    img: 'icr.png',
-    link: 'https://theindiacrafthouse.com/'
+    name: 'Resume Mango',
+    img: 'resumemango.png',
+    link: 'https://www.resumemango.com/'
   },
   {
     name: 'Wilson Street Records',
