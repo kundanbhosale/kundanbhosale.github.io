@@ -10,7 +10,7 @@ const WorkSection: React.FC<IProps> = (props) => {
     <Fragment>
       <section id='work' className='py-3'>
         <Heading name='Websites' />
-        <h3 className='py-1'>Few Recent Websites</h3>
+        <h3 className='py-1'>Few Recent Projects</h3>
         <Catlog />
       </section>
 
