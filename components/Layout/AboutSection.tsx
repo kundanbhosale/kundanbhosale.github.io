@@ -21,11 +21,11 @@ const AboutSection = () => {
           <h3 className='py-1'>Who I am ?</h3>
 
 
-       <p> I'm Kundan Bhosale, a 23-year-old solo entrepreneur from Pune, India. I've been interested in computers since childhood, and I started learning to code in college. I built websites for friends and family, and then for local NGOs and small businesses.
+       <p> I&apos;m Kundan Bhosale, a 23-year-old solo entrepreneur from Pune, India. I&apos;ve been interested in computers since childhood, and I started learning to code in college. I built websites for friends and family, and then for local NGOs and small businesses.
 </p>
-  <p>I'm now a solo entrepreneur who builds apps for people and solves their problems. I'm passionate about using technology to make people's lives easier and more enjoyable. I'm also committed to giving back to my community, and I donate a portion of my profits to local charities.
+  <p>I&apos;m now a solo entrepreneur who builds apps for people and solves their problems. I&apos;m passionate about using technology to make people&apos;s lives easier and more enjoyable. I&apos;m also committed to giving back to my community, and I donate a portion of my profits to local charities.
 </p>
- <p>I'm always looking for new challenges, and I'm excited to see what the future holds. I'm confident that I can use my skills and experience to make a positive impact on the world.
+ <p>I&apos;m always looking for new challenges, and I'm excited to see what the future holds. I&apos;m confident that I can use my skills and experience to make a positive impact on the world.
    </p>       <p>
             I gained a lot of experience and I am still expanding my tech stack,
             I can build modern & complex softwares.
