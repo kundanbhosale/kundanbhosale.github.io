@@ -24,8 +24,8 @@ const contact = async (
 
   try {
     await smtpTransport.sendMail({
-      from: 'me@kundanbhosale.com',
-      to: 'me@kundanbhosale.com',
+      from: 'kundanmbhosale@gmail.com',
+      to: 'kundanmbhosale@gmail.com',
       subject: `Contact form submission from ${name}`,
       html: `<p>You have a new contact form submission</p><br>
       <p><strong>Name: </strong> ${name} </p><br>
