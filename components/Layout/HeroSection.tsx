@@ -27,10 +27,10 @@ const HeroSection = () => {
             Hey, I&apos;m <span className="text-pink">Kundan</span>
           </h1>
           <h2>
-            Building <span className="text-pink">Software</span>
+            I build softwares
 
           </h2>
-          <h2>That Solve Problems</h2>
+        <h2>that <span className="text-pink">solve problems</span></h2>
           <FlexWrapper className="my-2">
             <Button href="#work">See My Work</Button>
             <Button
