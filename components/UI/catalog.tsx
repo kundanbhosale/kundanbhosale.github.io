@@ -9,15 +9,20 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const websites = [
+    {
+    name: 'Lipy AI',
+    img: 'lipyai.png',
+    link: 'https://www.lipy.ai/'
+  },
   {
     name: 'Taskwatch',
     img: 'taskwatch.png',
     link: 'https://www.taskwatch.io/'
   },
   {
-    name: 'Resume Mango',
-    img: 'resumemango.png',
-    link: 'https://www.resumemango.com/'
+    name: 'Career Mango',
+    img: 'careermango.png',
+    link: 'https://www.careermango.co/'
   },
   {
     name: 'Wilson Street Records',
