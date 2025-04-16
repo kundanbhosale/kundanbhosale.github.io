@@ -79,7 +79,7 @@ const Home: React.FC<IProps> = ({ data }) => {
         <section className="py-3">
           <AboutSection />
         </section>
-        <WorkSection data={data} />
+{/*         <WorkSection data={data} /> */}
         <section id="contact" className="py-3">
           <ContactSection />
           {desktop && <Footer />}
